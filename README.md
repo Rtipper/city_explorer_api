@@ -50,8 +50,19 @@ Finish time: 330PM
 Actual time needed to complete: 4.5 hour
 
 ### Lab 07
--
--
+- Aquire API keys
+- Refractor current code to incorporate new API keys
+
+Number and name of feature: Aquiring new API keys from online + refactoring code for API application
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 1/4 - 12AM
+
+Finish time: 1PM
+
+Actual time needed to complete: 1 hour
+
 
 ### Lab 08
 -
