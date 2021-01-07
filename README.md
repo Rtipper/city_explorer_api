@@ -11,11 +11,43 @@ Problem Domain: As a user, I want to be able to search a given location to see r
 I want to be able to enter in the name of a city within the search bar, then see the page refresh and populate the data mentioned above, which will be grabbed from an API server.
 
 ## Getting Started
+- Creating the repo
+- Touching or importing the necessary files
+- Copying over the provided Trello board and reviewing its step by step instructions
+- Incorporate what provided resources are available via demo code / instruction and lecture
+- Follow all instructional steps beyond this
+
+## Architecture
+Java Sctipt | JSON | Node | Git | ENV | APIs
+
+## Change Log
+12.27.20 402PM Lab 6 completed with initial layout and code achieved per requirements
+1.4.21 1PM Lab 7 completed with APIs added, code modified to incorporate new code and URLs for keys
 
 ### Lab 06
 - Setting up their repo.
 - Creating and organizing the necessary files within their repo.
 - Deploy to Heroku
+
+Number and name of feature: Initial Setup for Lab 6
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 12/23 - 8PM
+
+Finish time: 9PM
+
+Actual time needed to complete: 1 hour
+
+Number and name of feature: Completing base structure of node, js and other repo files
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 12/27 - 11AM
+
+Finish time: 330PM
+
+Actual time needed to complete: 4.5 hour
 
 ### Lab 07
 -
@@ -42,3 +74,10 @@ I want to be able to enter in the name of a city within the search bar, then see
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
+
+Resubmitting:
+https://dashboard.heroku.com/apps/rtipper-city-explorer/deploy/github
+https://trello.com/b/RkFfvgtq/city-explorer
+How will this evolve to incorporate not only the API portion of the project in Lab 7, but incorporate multiple APIs
+The ah-ha was realizing what needed to change within the context of the code itself, and know what could stay the same
+3-4 hours total
