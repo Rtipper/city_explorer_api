@@ -23,6 +23,8 @@ Java Sctipt | JSON | Node | Git | ENV | APIs
 ## Change Log
 12.27.20 402PM Lab 6 completed with initial layout and code achieved per requirements
 1.4.21 1PM Lab 7 completed with APIs added, code modified to incorporate new code and URLs for keys
+1.7.21 9PM Added in schema.sql files for data table
+1.8.21 TBD
 
 ### Lab 06
 - Setting up their repo.
@@ -65,8 +67,24 @@ Actual time needed to complete: 1 hour
 
 
 ### Lab 08
--
--
+- Setup databases with SQL
+- Refactor necessary code in the server.js file and add in new files
+
+Number and name of feature: Refractor current code, add in new schema.sql file and update server.js with database & SQL format
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 1/7 - 9PM
+
+Finish time: 930PM
+
+Actual time needed to complete: n.a - not yet complete
+
+Start time: 1/8 - TBD
+
+Finish time: TBD
+
+Actual time needed to complete: TBD
 
 ### Lab 09
 -
