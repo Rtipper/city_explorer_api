@@ -24,7 +24,7 @@ Java Sctipt | JSON | Node | Git | ENV | APIs
 12.27.20 402PM Lab 6 completed with initial layout and code achieved per requirements
 1.4.21 1PM Lab 7 completed with APIs added, code modified to incorporate new code and URLs for keys
 1.7.21 9PM Added in schema.sql files for data table
-1.8.21 TBD
+1.8.21 5PM Began working on importing / refactoring of current code for SQL and database items  
 
 ### Lab 06
 - Setting up their repo.
@@ -80,11 +80,17 @@ Finish time: 930PM
 
 Actual time needed to complete: n.a - not yet complete
 
-Start time: 1/8 - TBD
+Start time: 1/8 - 5PM
 
-Finish time: TBD
+Finish time: 8PM
 
-Actual time needed to complete: TBD
+Actual time needed to complete: n.a - not yet complete
+
+Start time: 1/9 - 1230PM
+
+Finish time: 2PM
+
+Actual time needed to complete: 5 hours
 
 ### Lab 09
 -
