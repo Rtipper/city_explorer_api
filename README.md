@@ -24,7 +24,9 @@ Java Sctipt | JSON | Node | Git | ENV | APIs
 12.27.20 402PM Lab 6 completed with initial layout and code achieved per requirements
 1.4.21 1PM Lab 7 completed with APIs added, code modified to incorporate new code and URLs for keys
 1.7.21 9PM Added in schema.sql files for data table
-1.8.21 5PM Began working on importing / refactoring of current code for SQL and database items  
+1.8.21 5PM Began working on importing / refactoring of current code for SQL and database items
+1.11.21 2PM Working with TA on server issues + Heroku deployment
+1.11.21 915PM Movies API successfully brought in. Still having issues accessing docs to aquire APIs. Will attempt again tomorrow.
 
 ### Lab 06
 - Setting up their repo.
@@ -93,26 +95,20 @@ Finish time: 2PM
 Actual time needed to complete: 5 hours
 
 ### Lab 09
--
--
+- Bring in Movies/Yelp APIs
+- Work out server & Heroku kinks
 
-## Architecture
-- GitHub
-- VS Code
-- Heroku
+Number and name of feature: Bring in API + code for Movies & Yelp
 
-## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+Estimate of time needed to complete: 3 hours
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
+Start time: 1/11 - 830PM
+
+Finish time: 920PM
+
+Actual time needed to complete: n.a - not yet complete
+
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
-
-Resubmitting:
-https://dashboard.heroku.com/apps/rtipper-city-explorer/deploy/github
-https://trello.com/b/RkFfvgtq/city-explorer
-How will this evolve to incorporate not only the API portion of the project in Lab 7, but incorporate multiple APIs
-The ah-ha was realizing what needed to change within the context of the code itself, and know what could stay the same
-3-4 hours total
