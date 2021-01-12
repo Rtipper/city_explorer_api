@@ -1,7 +1,7 @@
 'use strict'
 
 //Dependencies
-require('dotenv').cofig();
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const superagent = require('superagent');
@@ -46,8 +46,8 @@ function locationHandler(request, response) {
 }
 
 function checkLocationData(city, response, url) {
-  const firstSQL = `SELECT * FROM location WHERE searchquery LIKE '${city}'`;
-  const secondSQL = 'INSERT INTO location (searhcquey,formattedquery,latitude,longitutde) VALUES ($1,$2,$3,$4)';
+  const firstSQL = `SELECT * FROM location WHERE search_query LIKE '${city}'`;
+  const secondSQL = 'INSERT INTO location (search_query,formatted_query,latitude,longitude) VALUES ($1,$2,$3,$4)';
 
   client.query(firstSQL)
     .then(data => {
@@ -55,7 +55,7 @@ function checkLocationData(city, response, url) {
         superagent.get(url)
           .then(data => {
             const newLocationInstance = new Location(city, data.body[0])
-            const safeQuery = [newLocationsInstance.search_query, newLocationInstance.formatted_query, newLocationInstance.latitude, newLocationInstance.longitude];
+            const safeQuery = [newLocationInstance.search_query, newLocationInstance.formatted_query, newLocationInstance.latitude, newLocationInstance.longitude];
             client.query(secondSQL, safeQuery);
             return response.status(200).json(newLocationInstance);
           }).catch(error => {
@@ -92,6 +92,10 @@ function checkLocationData(city, response, url) {
         });
     }
   }
+
+  // MOVIES
+
+  // YELP
 
   // Helper Functions
   function inputInval(send) {
