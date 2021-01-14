@@ -127,6 +127,37 @@ function moviesHandler(request, response) {
 }
 
 // YELP
+function yelpHandler(request, response) {
+  const key = process.env.YELP_API_KEY;
+  const page = request.query.page || 1;
+  const numPerPg = 5;
+  const start = ((page - 1) * numPerPg + 1);
+  const url = 'https://api.yelp.com/v3/businesses/search';
+
+  const queryObj = {
+    latitude: request.query.latitude,
+    longitude: request.query.longitude,
+    limit: numPerPg,
+    offset: start
+
+  };
+
+  if (flagTrigger) {
+    inputInval(response);
+  } else {
+    superagent(url)
+    .auth(key, {type: 'bearer'})
+    .query(queryObj)
+    .then(data => {
+      const infoYelp = data.body.businesses.map(val => {
+        return new Yelp(val);
+      });
+      response.status(200).json(infoYelp);
+    }).catch(error => {
+      console.log(error);
+    });
+  }
+}
 
 // Helper Functions
 function inputInval(send) {
@@ -155,6 +186,14 @@ function Movies(data) {
   this.image_url = `https://image.tmdb.org/t/p/w500${data.poster_path}`;
   this.popularity = data.popularity;
   this.released_on = data.release_date;
+}
+
+function Yelp(data) {
+  this.name = data.name
+  this.image_url = data.image_url;
+  this.price = data.price;
+  this.rating = data.rating;
+  this.url = data.url;
 }
 
 // Start Server
